@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://novo-89488ac2.zappy5.app/sitemap.xml
