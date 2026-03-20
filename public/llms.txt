@@ -1,45 +1,35 @@
-# Novo — Generative Engine Optimization Map
-
-> A marketing and sales agency focused on helping businesses grow through strategic marketing and sales solutions. The agency appears to be looking for a high-converting landing page to showcase their services and attract potential clients.
+# Business — Generative Engine Optimization Map
 
 ---
 
 ## Pages
 
 ### בית
-https://novo-89488ac2.zappy5.app
+https://example.com
 A marketing and sales agency focused on helping businesses grow through strategic marketing and sales solutions. The agency appears to be looking for a high-con
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://novo-89488ac2.zappy5.app/privacy
+https://example.com/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://novo-89488ac2.zappy5.app/terms
+https://example.com/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://novo-89488ac2.zappy5.app/accessibility
+https://example.com/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
 
 # Business Context (for LLM understanding)
 
-## About Novo
-A marketing and sales agency focused on helping businesses grow through strategic marketing and sales solutions. The agency appears to be looking for a high-converting landing page to showcase their services and attract potential clients.
-
-## Target Audience
-- בעלי עסקים וסטארטאפים
-
-## Industry
-שיווק ומכירות
-
+## About Business
 ---
 
 # Additional Resources
 
-- **Sitemap**: https://novo-89488ac2.zappy5.app/sitemap.xml
-- **Robots.txt**: https://novo-89488ac2.zappy5.app/robots.txt
+- **Sitemap**: https://example.com/sitemap.xml
+- **Robots.txt**: https://example.com/robots.txt
