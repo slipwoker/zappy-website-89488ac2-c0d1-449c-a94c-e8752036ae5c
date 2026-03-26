@@ -242,6 +242,240 @@
     <script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
     <!-- Mickidum Accessibility Toolbar -->
     <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
+
+<style data-zappy-section-v2-css="true">
+/* V2 Regenerated Section CSS */
+.index-hero-section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  overflow: visible;
+  background: #2B2723;
+  color: var(--text-light);
+  padding-bottom: 80px;
+  display: flex;
+  align-items: center;
+  direction: rtl;
+}
+
+.index-hero-section .index-hero-bg-wrapper {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.index-hero-section .index-hero-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  filter: saturate(0.75) brightness(0.88);
+}
+
+.index-hero-section .index-hero-scrim {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background-image:
+    linear-gradient(to left, rgba(43,39,35,0.92) 0%, rgba(43,39,35,0.72) 50%, rgba(43,39,35,0.30) 100%),
+    linear-gradient(to top, rgba(43,39,35,0.85) 0%, transparent 60%);
+  z-index: 1;
+  pointer-events: none;
+}
+
+.index-hero-section .index-hero-content-wrapper {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 160px 48px 60px;
+}
+
+.index-hero-section .index-hero-inner {
+  max-width: 680px;
+  margin-inline-start: 0;
+  text-align: right;
+}
+
+.index-hero-section .index-hero-eyebrow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-bottom: 28px;
+  font-family: 'Manrope', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--primary);
+  opacity: 0.9;
+}
+
+.index-hero-section .index-hero-dot {
+  color: var(--text-light);
+  opacity: 0.4;
+  font-size: 0.9rem;
+}
+
+.index-hero-section .index-hero-h1 {
+  font-family: 'Fraunces', 'Cormorant', Georgia, 'Times New Roman', serif;
+  font-size: 3.75rem;
+  font-weight: 400;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+  color: var(--text-light);
+  margin: 0 0 24px 0;
+  text-shadow: 0 2px 24px rgba(43,39,35,0.5);
+}
+
+.index-hero-section .index-hero-h1-accent {
+  color: var(--primary);
+  font-style: italic;
+}
+
+.index-hero-section .index-hero-h3 {
+  font-family: 'Manrope', sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.7;
+  color: var(--text-light);
+  opacity: 0.88;
+  margin: 0 0 40px 0;
+  max-width: 580px;
+  text-shadow: 0 1px 8px rgba(43,39,35,0.4);
+}
+
+.index-hero-section .index-hero-ctas {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.index-hero-section .index-hero-btn-primary {
+  display: inline-block;
+  background: linear-gradient(180deg, #E38642 0%, #D97835 100%);
+  color: #FFFDF9;
+  padding: 15px 36px;
+  border-radius: 8px;
+  border: none;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 600;
+  font-size: 0.9375rem;
+  line-height: 1;
+  text-decoration: none;
+  box-shadow: 0 6px 24px rgba(217,120,53,0.32);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.index-hero-section .index-hero-btn-primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 32px rgba(217,120,53,0.42);
+  color: #FFFDF9;
+}
+
+.index-hero-section .index-hero-btn-secondary {
+  display: inline-block;
+  background: rgba(244,239,231,0.10);
+  color: var(--text-light);
+  padding: 14px 34px;
+  border-radius: 8px;
+  border: 1px solid rgba(244,239,231,0.30);
+  font-family: 'Manrope', sans-serif;
+  font-weight: 500;
+  font-size: 0.9375rem;
+  line-height: 1;
+  text-decoration: none;
+  backdrop-filter: blur(4px);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.index-hero-section .index-hero-btn-secondary:hover {
+  background: rgba(244,239,231,0.18);
+  border-color: rgba(244,239,231,0.55);
+  transform: translateY(-3px);
+  color: var(--text-light);
+}
+
+.index-hero-section .index-hero-divider-wrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  pointer-events: none;
+  z-index: 5;
+}
+
+.index-hero-section .index-hero-divider-wrapper svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .index-hero-section {
+    min-height: 100vh;
+    padding-bottom: 60px;
+  }
+
+  .index-hero-section .index-hero-content-wrapper {
+    padding: 110px 20px 40px;
+  }
+
+  .index-hero-section .index-hero-inner {
+    max-width: 100%;
+  }
+
+  .index-hero-section .index-hero-h1 {
+    font-size: 2.4rem;
+    line-height: 1.15;
+    margin-bottom: 18px;
+  }
+
+  .index-hero-section .index-hero-h3 {
+    font-size: 1rem;
+    margin-bottom: 32px;
+  }
+
+  .index-hero-section .index-hero-ctas {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .index-hero-section .index-hero-btn-primary,
+  .index-hero-section .index-hero-btn-secondary {
+    width: 100%;
+    text-align: center;
+    padding: 14px 24px;
+  }
+
+  .index-hero-section .index-hero-eyebrow {
+    margin-bottom: 20px;
+  }
+
+  .index-hero-section .index-hero-scrim {
+    background-image:
+      linear-gradient(to left, rgba(43,39,35,0.95) 0%, rgba(43,39,35,0.85) 60%, rgba(43,39,35,0.50) 100%),
+      linear-gradient(to top, rgba(43,39,35,0.90) 0%, transparent 55%);
+  }
+}
+</style>
     <link rel="stylesheet" href="/styles.css">
 
     <style id="zappy-dropdown-submenu-styles">
@@ -783,32 +1017,36 @@
 </script>
   
   <main>
-    <section id="hero" class="index-hero-section" data-layout-spec="בית-hero" dir="rtl" data-hero-type="fullscreen-scrim">
-  <!-- Background Image -->
-  <div class="index-hero-bg">
-    <img data-hero-bg="true" data-placeholder="index-hero-image-1" data-context="Authentic strategy meeting in a warm, naturally lit modern office. A small team of professionals — founders and marketers — gathered around a wooden table with notebooks, laptops, coffee cups, and printed charts. Candid human interaction, genuine conversation, warm tones, slightly desaturated and warm-filtered for a grounded premium feel. No staged corporate poses. Natural window light, soft shadows." width="1400" height="900" src="/assets/site-index-hero-image-1.webp" alt="צוות שיווק ומכירות בפגישת אסטרטגיה טבעית ואותנטית">
+    <section class="index-hero-section" data-layout-spec="בית-hero" dir="rtl" data-hero-type="fullscreen-card" data-zappy-section="true" id="hero">
+  <div class="index-hero-bg-wrapper">
+    <div class="index-hero-bg" style="background-image: url('assets/site-index-hero-image-1.webp'); background-size: cover; background-position: center; width: 100%; height: 100%;"></div>
+    <div class="index-hero-scrim"></div>
   </div>
 
-  <!-- Scrim Overlay -->
-  <div class="index-hero-scrim" aria-hidden="true"></div>
+  <div class="index-hero-content-wrapper">
+    <div class="index-hero-inner">
+      <div class="index-hero-eyebrow">
+        <span>שיווק</span>
+        <span class="index-hero-dot">·</span>
+        <span>מכירות</span>
+        <span class="index-hero-dot">·</span>
+        <span>צמיחה</span>
+      </div>
 
-  <!-- Frosted Card -->
-  <div class="index-hero-container">
-    <div class="index-hero-card">
-      <span class="index-hero-label">שיווק · מכירות · צמיחה</span>
-      <h1 class="index-hero-h1">מהמאמצים המפוזרים<br>למערכת צמיחה אחת</h1>
-      <h3 class="index-hero-subtitle">מייסדים, בעלי עסקים וצוותי צמיחה — אנחנו כאן כדי לחדד את הפוזיציה שלכם, לשפר את איכות הלידים ולהפוך כל שיחת מכירה לביטחון אמיתי.</h3>
+      <h1 class="index-hero-h1">מהמאמצים המפוזרים<br><span class="index-hero-h1-accent">למערכת צמיחה אחת</span></h1>
+
+      <h3 class="index-hero-h3">מייסדים, בעלי עסקים וצוותי צמיחה — אנחנו כאן כדי לחדד את הפוזיציה שלכם, לשפר את איכות הלידים ולהפוך כל שיחת מכירה לביטחון אמיתי.</h3>
+
       <div class="index-hero-ctas">
-        <a href="#contact" class="index-hero-btn-primary btn-pill">בואו נדבר</a>
-        <a href="#process" class="index-hero-btn-secondary btn-pill">איך אנחנו עובדים</a>
+        <a href="#contact" class="index-hero-btn-primary">בואו נדבר</a>
+        
       </div>
     </div>
   </div>
 
-  <!-- Bottom Torn-Paper Divider -->
   <div class="index-hero-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1440 90" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,90 L0,48 Q60,38 120,50 T240,42 Q300,50 360,40 T480,46 Q540,38 600,50 T720,42 Q780,48 840,38 T960,46 Q1020,40 1080,50 T1200,42 Q1260,50 1320,40 T1440,48 L1440,90 Z" fill="#F4EFE7"></path>
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0,80 L0,42 Q80,30 160,44 T320,36 Q420,28 520,42 T680,34 Q780,26 900,40 T1060,32 Q1130,28 1200,38 L1200,80 Z" fill="#F4EFE7"></path>
     </svg>
   </div>
 </section>
@@ -1314,11 +1552,11 @@
             <!-- privacy-consent-fix -->
 <div class="privacy-consent" style="color: var(--text-light, #fff)">
   <label class="privacy-consent-label">
-    <input type="checkbox" name="privacy_consent" class="privacy-consent-checkbox" required />
+    <input type="checkbox" name="privacy_consent" class="privacy-consent-checkbox" required="">
     <span>קראתי ואני מסכים/ה ל<a href="/terms" target="_blank">תנאי השימוש</a> ול<a href="/privacy" target="_blank">מדיניות הפרטיות</a></span>
   </label>
 </div>
-<script data-privacy-consent-validation>(function(){if(window._zpcv)return;window._zpcv=1;var _l=document.documentElement.lang||"";var isHe=_l==="he"||(_l!=="ar"&&document.documentElement.dir==="rtl");var isAr=_l==="ar";var valMsg=isHe?"יש לאשר את תנאי השימוש ומדיניות הפרטיות":isAr?"يرجى الموافقة على الشروط والأحكام وسياسة الخصوصية":"Please accept the Terms & Conditions and Privacy Policy";var cbs=document.querySelectorAll(".privacy-consent-checkbox");cbs.forEach(function(cb){cb.setCustomValidity(cb.checked?"":valMsg);cb.addEventListener("change",function(){cb.setCustomValidity(cb.checked?"":valMsg)})});document.addEventListener("submit",function(e){var f=e.target;if(!f||f.tagName!=="FORM")return;var cb=f.querySelector(".privacy-consent-checkbox");if(!cb||cb.checked)return;e.preventDefault();e.stopImmediatePropagation();if(typeof window.zappyNotify==="function"){window.zappyNotify(valMsg,"error")}else if(typeof window.showNotification==="function"){window.showNotification(valMsg,"error")}else{var ex=document.querySelectorAll(".zappy-privacy-error");ex.forEach(function(el){el.remove()});var n=document.createElement("div");n.className="zappy-privacy-error";n.style.cssText="position:fixed;top:20px;right:20px;max-width:400px;padding:14px 18px;background:#f8d7da;color:#721c24;border:1px solid #f5c6cb;border-radius:8px;box-shadow:0 4px 12px rgba(0,0,0,.15);z-index:10000;font-family:-apple-system,BlinkMacSystemFont,sans-serif;font-size:14px";n.textContent=valMsg;document.body.appendChild(n);setTimeout(function(){if(n.parentElement)n.remove()},6000)}cb.focus()},true)})();</script>
+<script data-privacy-consent-validation="">(function(){if(window._zpcv)return;window._zpcv=1;var _l=document.documentElement.lang||"";var isHe=_l==="he"||(_l!=="ar"&&document.documentElement.dir==="rtl");var isAr=_l==="ar";var valMsg=isHe?"יש לאשר את תנאי השימוש ומדיניות הפרטיות":isAr?"يرجى الموافقة على الشروط والأحكام وسياسة الخصوصية":"Please accept the Terms & Conditions and Privacy Policy";var cbs=document.querySelectorAll(".privacy-consent-checkbox");cbs.forEach(function(cb){cb.setCustomValidity(cb.checked?"":valMsg);cb.addEventListener("change",function(){cb.setCustomValidity(cb.checked?"":valMsg)})});document.addEventListener("submit",function(e){var f=e.target;if(!f||f.tagName!=="FORM")return;var cb=f.querySelector(".privacy-consent-checkbox");if(!cb||cb.checked)return;e.preventDefault();e.stopImmediatePropagation();if(typeof window.zappyNotify==="function"){window.zappyNotify(valMsg,"error")}else if(typeof window.showNotification==="function"){window.showNotification(valMsg,"error")}else{var ex=document.querySelectorAll(".zappy-privacy-error");ex.forEach(function(el){el.remove()});var n=document.createElement("div");n.className="zappy-privacy-error";n.style.cssText="position:fixed;top:20px;right:20px;max-width:400px;padding:14px 18px;background:#f8d7da;color:#721c24;border:1px solid #f5c6cb;border-radius:8px;box-shadow:0 4px 12px rgba(0,0,0,.15);z-index:10000;font-family:-apple-system,BlinkMacSystemFont,sans-serif;font-size:14px";n.textContent=valMsg;document.body.appendChild(n);setTimeout(function(){if(n.parentElement)n.remove()},6000)}cb.focus()},true)})();</script>
 <button type="submit" class="btn-primary index-contact-submit">שלחו פנייה <i class="fa-solid fa-arrow-left"></i></button>
           </form>
         </div>
